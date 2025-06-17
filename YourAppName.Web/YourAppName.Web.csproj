@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework> <!-- Or newer -->
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- If you need to use the same name for the assembly as the project -->
+    <!-- <AssemblyName>YourAppName.Web</AssemblyName> -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YourAppName.Data\YourAppName.Data.csproj" />
+    <!-- EF Core design package is useful for migrations from this project -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
