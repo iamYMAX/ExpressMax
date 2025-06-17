@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\YourAppName.Data",
+    "\\YourAppName.Data\\bin\\Debug",
+    "\\YourAppName.Data\\bin\\Debug\\net6.0",
+    "\\YourAppName.Data\\bin\\Release",
+    "\\YourAppName.Data\\bin\\Release\\net6.0",
+    "\\YourAppName.Data\\Migrations",
+    "\\YourAppName.Data\\Models"
+  ],
+  "PreviewInSolutionExplorer": false
+}
